@@ -1,0 +1,317 @@
+/* Wrapper for the entire form layout */
+.form-wrapper {
+  max-width: 800px;
+  margin: 20px auto;
+  border: 2px solid #d3c4f3;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #faf5ff;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Form Header Section */
+.form-header {
+  padding: 10px 0 20px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.header-title {
+  font-size: 24px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  width: 100%;
+  margin-bottom: 10px;
+  background: transparent;
+}
+
+.header-description {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  width: 100%;
+  background: transparent;
+  color: #555;
+}
+
+/* Container for the entire form */
+.question-form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin-top: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+}
+
+/* Style for each question container */
+.question-container {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  transition: border 0.3s ease;
+}
+
+/* Hover effect for question block */
+.question-container:hover {
+  border-color: #4285f4;
+}
+
+/* Input for the question text */
+.question-text-input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  box-sizing: border-box;
+  transition: border 0.3s ease;
+}
+
+.question-text-input:focus {
+  border-color: #4285f4;
+  outline: none;
+}
+
+/* Select dropdown for question type */
+.question-type-select {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  box-sizing: border-box;
+  background-color: #fff;
+  transition: border 0.3s ease;
+}
+
+.question-type-select:focus {
+  border-color: #4285f4;
+  outline: none;
+}
+
+/* Container for options */
+.options {
+  margin-bottom: 20px;
+}
+
+/* Styles for radio and checkbox options */
+.option {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.radio-option,
+.checkbox-option {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Delete option button */
+.delete-option {
+  color: #d9534f;
+  cursor: pointer;
+  font-size: 14px;
+  margin-left: 10px;
+  transition: color 0.3s ease;
+}
+
+.delete-option:hover {
+  color: #c9302c;
+}
+
+/* Input for adding new option */
+.add-option-input {
+  width: 80%;
+  padding: 8px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  transition: border 0.3s ease;
+}
+
+.add-option-input:focus {
+  border-color: #4285f4;
+  outline: none;
+}
+
+/* Button to add new option */
+.add-option-button {
+  background-color: #4285f4;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 8px 15px;
+  border-radius: 5px;
+  text-transform: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-option-button:hover {
+  background-color: #357ae8;
+}
+
+/* Button for Answer Key */
+button[size="small"] {
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  font-weight: 600;
+  color: #4285f4;
+  padding: 10px 20px;
+  background: none;
+  border: 1px solid #4285f4;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[size="small"]:hover {
+  background-color: #f1f1f1;
+}
+
+/* Copy Question Button */
+.copy-question-button {
+  float: right;
+  font-size: 14px;
+  color: #666;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.copy-question-button:hover {
+  color: #357ae8;
+}
+
+/* Add Question Button */
+.add-question-button {
+  color: #4285f4;
+  font-size: 30px;
+  margin: 20px auto;
+  cursor: pointer;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: none;
+  transition: color 0.3s ease;
+}
+
+.add-question-button:hover {
+  color: #357ae8;
+}
+
+/* Textarea for paragraph-type questions */
+.paragraph-input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  height: 100px;
+  box-sizing: border-box;
+  resize: vertical;
+  transition: border 0.3s ease;
+}
+
+.paragraph-input:focus {
+  border-color: #4285f4;
+  outline: none;
+}
+
+/* Input for short text answers */
+.short-text-input {
+  width: 80%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  transition: border 0.3s ease;
+}
+
+.short-text-input:focus {
+  border-color: #4285f4;
+  outline: none;
+}
+
+/* Ensure last question container has no margin */
+.question-form .question-container:last-child {
+  margin-bottom: 0;
+}
+
+/* Additional question types layout */
+.dropdown-select,
+.file-upload,
+.linear-scale,
+.date-input,
+.time-input {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.rating {
+  margin-top: 10px;
+}
+
+/* Save button section */
+.save_form {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .form-wrapper {
+    padding: 10px;
+  }
+
+  .question-form {
+    padding: 10px;
+  }
+
+  .question-container {
+    padding: 15px;
+  }
+
+  .add-option-input {
+    width: 70%;
+  }
+
+  .add-option-button {
+    width: 100%;
+    margin-top: 15px;
+  }
+
+  .add-question-button {
+    font-size: 28px;
+  }
+}
+.options-container {
+  margin-top: 10px;
+}
+
+.option-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.option-text-input {
+  margin-left: 10px;
+  width: 60%;
+  padding: 5px;
+}
+

@@ -1,0 +1,82 @@
+[
+  {
+    "doc_id": "067825cc-0046-fa85-6864-c5fa76b16028",
+    "document_name": "",
+    "document_desc": "",
+    "questions": [
+      {
+        "questionText": "Which is the capital city of Karnataka?",
+        "questionType": "radio",
+        "options": [
+          {
+            "optionText": "Bangalore",
+            "selected": true
+          },
+          {
+            "optionText": "Mysore",
+            "selected": false
+          },
+          {
+            "optionText": "Mangalore",
+            "selected": false
+          },
+          {
+            "optionText": "Hubli",
+            "selected": false
+          }
+        ],
+        "showAnswerKey": false,
+        "marks": 0
+      }
+    ]
+  },
+  {
+    "doc_id": "ee4ca0e0-eee4-3e7b-0e1c-47157b14b986",
+    "document_name": "",
+    "document_desc": "",
+    "questions": [
+      {
+        "questionText": "\tWhat is the capital of France?",
+        "questionType": "radio",
+        "options": [
+          {
+            "optionText": "Paris",
+            "selected": true
+          },
+          {
+            "optionText": "London",
+            "selected": false
+          },
+          {
+            "optionText": "Berlin",
+            "selected": false
+          }
+        ],
+        "showAnswerKey": true,
+        "marks": "1",
+        "answer": ""
+      },
+      {
+        "questionText": "Which of these are fruits? (Options: Apple, Car, Banana)",
+        "questionType": "checkbox",
+        "options": [
+          {
+            "optionText": "Apple",
+            "selected": false
+          },
+          {
+            "optionText": "Car",
+            "selected": false
+          },
+          {
+            "optionText": "Banana",
+            "selected": false
+          }
+        ],
+        "showAnswerKey": true,
+        "marks": "2",
+        "answer": ""
+      }
+    ]
+  }
+]
